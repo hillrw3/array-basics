@@ -9,3 +9,12 @@ end
 
 p friends
 
+p friends.sort
+
+p friends.reverse
+
+p friends.reverse.sort
+
+nested = friends.map {|f| [f, f.length]}
+
+p nested
