@@ -11,3 +11,4 @@ p upcase_fruits
 
 g_fruits = fruits.select{|f| f.include? "g"}
 p g_fruits
+
